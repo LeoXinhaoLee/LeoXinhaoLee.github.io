@@ -1,0 +1,105 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p>
+      Hi! I am a second-year master student at UC San Diego,
+      advised by Prof. Xiaolong Wang.
+  </p>
+
+  <p>
+      My research interest mainly lies in deep learning and computer vision.
+      Recently, I work on <b>Test Time Training</b>,
+      which lets each test instance define its own learning problem to facilitate its own generalization.
+      This learning problem can be self-supervised,
+      making better generalization possible at test time without access to ground-truth labels.
+  </p>
+
+    <p>
+        From my study of Test Time Training, I become particularly interested in developing
+    <li>
+        Models that reframe generalization as learning and are adaptable during deployment;
+    </li>
+    <li>
+        Self-supervised methods that emerge from and scale with data and computation;
+    </li>
+    <li>
+        Systems that support such methods with high parallelism and low latency.
+    </li>
+    </p>
+
+    <br>
+    <p>
+        I am very grateful to have worked with and learned from many great mentors along the way.
+        I spent an unforgettable summer as a visiting student at Prof. Tatsunori Hashimoto's group at Stanford,
+        working with Dr. Yu Sun and other mentors and friends.
+        In my undergrad years, I worked with Prof. Jingjing Li at UESTC.
+    </p>
+
+</div>
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <p>
+  <sup>‡</sup> indicates equal contribution.
+  </p>
+
+  <div class="tab-content">
+    {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+    {% for paper in selected_papers %}
+      <div class="paper">
+        <p class="title"><b>{{ paper.title }}</b></p>
+        <p>{{ paper.authors }}</p>
+        <p><i>{{ paper.venue }}</i></p>
+        <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+            <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+        </div>
+
+      </div>
+  {% endfor %}
+
+  </div>
+</div>
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vitæ</h4>
+  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+</div>
+
+
+<div class="docs-section" id="template">
+    <h4>Acknowledgement</h4>
+    <!--<br/>-->
+    The template of this website is forked from
+    <a href="https://github.com/msaveski/www_personal" target="_blank">Martin Saveski's repo</a>.
+    Many thanks!
+</div>

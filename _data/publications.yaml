@@ -1,0 +1,26 @@
+papers:
+
+  - title: "Learning to (Learn at Test Time)"
+    authors: "Yu Sun<sup>‡</sup>, <b>Xinhao Li</b><sup>‡</sup>, Karan Dalal, Chloe Hsu, 
+    Sanmi Koyejo, Carlos Guestrin, Xiaolong Wang, Tatsunori Hashimoto, Xinlei Chen"
+    venue: "Preprint 2023"
+    paper_pdf: "https://arxiv.org/abs/2310.13807"
+    code: "https://github.com/test-time-training/mttt"
+    selected: y
+
+  - title: "Interpretable Open-Set Domain Adaptation via Angular Margin Separation"
+    authors: "<b>Xinhao Li</b>, Jingjing Li, Zhekai Du, Lei Zhu, Wen Li"
+    venue: "ECCV 2022"
+    paper_pdf: "https://link.springer.com/chapter/10.1007/978-3-031-19830-4_1"
+    code: "https://github.com/LeoXinhaoLee/AMS"
+    selected: y
+
+  - title: "Imbalanced Source-Free Domain Adaptation"
+    authors: "<b>Xinhao Li</b>, Jingjing Li, Lei Zhu, Guoqing Wang, Zi Huang"
+    venue: "ACM MM 2021"
+#   paper_pdf: "/assets/publications/2021_dtox/paper.pdf"
+    paper_pdf: "https://dl.acm.org/doi/10.1145/3474085.3475487"
+    code: "https://github.com/LeoXinhaoLee/Imbalanced-Source-free-Domain-Adaptation"
+#    data: "https://doi.org/10.7910/DVN/TRWPVB"
+#    video: "https://www.youtube.com/watch?v=JLkUgxH92pE"
+    selected: y
