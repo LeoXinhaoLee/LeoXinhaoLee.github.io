@@ -8,6 +8,13 @@ papers:
     code: "https://github.com/test-time-training/ttt-lm-pytorch"
     selected: y
 
+  - title: "GSPN-2: Efficient Parallel Sequence Modeling"
+    authors: "Hongjun Wang, Yitong Jiang, KCollin McCarthy, David Wehr, Hanrong Ye, <b>Xinhao Li</b>, Ka Chun Cheung, 
+    Wonmin Byeon, Jinwei Gu, Ke Chen, Kai Han, Hongxu Yin, Pavlo Molchanov, Jan Kautz, Sifei Liu."
+    venue: "NeurIPS 2025"
+    paper_pdf: "https://www.arxiv.org/pdf/2512.07884"
+    selected: y
+
   - title: "Learning to (Learn at Test Time)"
     authors: "Yu Sun<sup>‡</sup>, <b>Xinhao Li</b><sup>‡</sup>, Karan Dalal, Chloe Hsu, 
     Sanmi Koyejo, Carlos Guestrin, Xiaolong Wang, Tatsunori Hashimoto, Xinlei Chen"
