@@ -1,6 +1,6 @@
 papers:
   - title: "Learning to Discover at Test Time"
-    authors: "Mert Yuksekgonul<sup>‡</sup>, Daniel Koceja<sup>‡</sup>, Xinhao Li<sup>‡</sup>, Federico Bianchi<sup>‡</sup>, 
+    authors: "Mert Yuksekgonul<sup>‡</sup>, Daniel Koceja<sup>‡</sup>, <b>Xinhao Li</b><sup>‡</sup>, Federico Bianchi<sup>‡</sup>, 
     Jed McCaleb, Xiaolong Wang, Jan Kautz, Yejin Choi, James Zou, Carlos Guestrin, Yu Sun<sup>‡</sup>"
     venue: "arXiv 2025"
     paper_pdf: "https://arxiv.org/pdf/2601.16175"
